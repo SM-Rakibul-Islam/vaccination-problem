@@ -1,0 +1,39 @@
+[RESOURCES]
+Attendance for Male
+Checking
+Nurse
+Attendance for Female
+Volunteer to print Token
+[VARIABLES]
+Volunteer_11086.VATime
+Volunteer_11086.NumberOut
+Especial Service Point_11086.NumberOut
+Volunteer_11086.NumberIn
+NID Checking.NumberOut True
+Vaccination_11086.VATime
+Tocken Check Female_11086.NumberOut True
+Volunteer_11086.WaitTime
+Attendance Female_11086.NumberOut
+Especial Service Point_11086.NumberIn
+Attendance Male_11086.VATime
+Dispose 1.NumberOut
+Arival _11086.NumberOut
+Especial Service Point_11086.VATime
+Attendance Male_11086.NumberOut
+Got Printed Tocken_11086.NumberOut False
+Tocken Check Female_11086.NumberOut False
+Got Printed Tocken_11086.NumberOut True
+Vaccination_11086.NumberIn
+Especial Service Point_11086.WaitTime
+Attendance Male_11086.NumberIn
+Tocken Check Male_11086.NumberOut True
+Attendance Male_11086.WaitTime
+Attendance Female_11086.NumberIn
+Vaccination_11086.NumberOut
+NID Checking.NumberOut False
+Vaccination_11086.WaitTime
+Gender Checking_11086.NumberOut True
+Gender Checking_11086.NumberOut False
+Attendance Female_11086.VATime
+Tocken Check Male_11086.NumberOut False
+Attendance Female_11086.WaitTime

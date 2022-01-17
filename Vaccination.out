@@ -1,0 +1,121 @@
+
+                                      ARENA Simulation Results
+                            sm1998rakibul@gmail.com - License:           
+
+                                  Summary for Replication 1 of 1
+
+Project: Vaccination                                                 Run execution date : 4/13/2021
+Analyst: nabarun                                                     Model revision date: 4/13/2021
+
+Replication ended at time      : 24.0 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Especial Service Point_11086.WaitTimePerEn  7.7005E-04 (Insuf)    .00000     .02731         51    
+Volunteer_11086.TotalTimePerEntity          1.1735     (Corr)     .03333     2.6023        463    
+Vaccination_11086.VATimePerEntity           .04146     5.0287E-04 .03339     .04996        407    
+Volunteer_11086.WaitTimePerEntity           1.1402     (Corr)     .00000     2.5689        463    
+Especial Service Point_11086.TotalTimePerE  .03524     (Insuf)    .02596     .06459         51    
+Attendance Male_11086.WaitTimePerEntity     .00000     .00000     .00000     .00000        337    
+Vaccination_11086.WaitTimePerEntity         1.6297     (Corr)     .00000     3.2497        407    
+Attendance Male_11086.TotalTimePerEntity    .02075     2.3835E-04 .01669     .02498        337    
+Attendance Male_11086.VATimePerEntity       .02075     2.3835E-04 .01669     .02498        337    
+Especial Service Point_11086.VATimePerEnti  .03447     (Insuf)    .02596     .04107         51    
+Attendance Female_11086.TotalTimePerEntity  .04330     (Insuf)    .03388     .08059        126    
+Attendance Female_11086.WaitTimePerEntity   .00187     (Insuf)    .00000     .03164        126    
+Attendance Female_11086.VATimePerEntity     .04144     (Insuf)    .03336     .04994        126    
+Vaccination_11086.TotalTimePerEntity        1.6711     (Corr)     .04996     3.2934        407    
+Volunteer_11086.VATimePerEntity             .03333     (Corr)     .03333     .03333        463    
+People.VATime                               .08427     .00558     .00000     .16869        510    
+People.NVATime                              .00000     .00000     .00000     .00000        510    
+People.WaitTime                             2.1837     (Corr)     .00000     5.5762        510    
+People.TranTime                             .00000     .00000     .00000     .00000        510    
+People.OtherTime                            .00000     .00000     .00000     .00000        510    
+People.TotalTime                            2.2680     (Corr)     .00000     5.6671        510    
+Especial Service Point_11086.Queue.Waiting  7.7005E-04 (Insuf)    .00000     .02731         51    
+Vaccination_11086.Queue.WaitingTime         1.6336     (Corr)     .00000     3.2497        408    
+Attendance Female_11086.Queue.WaitingTime   .00187     (Insuf)    .00000     .03164        126    
+Attendance Male_11086.Queue.WaitingTime     .00000     .00000     .00000     .00000        337    
+Volunteer_11086.Queue.WaitingTime           1.1402     (Corr)     .00000     2.5689        463    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+People.WIP                                  56.849     (Corr)     .00000     138.00     53.000    
+Attendance for Male.NumberBusy              .29141     (Corr)     .00000     1.0000     .00000    
+Attendance for Male.NumberScheduled         1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Attendance for Male.Utilization             .29141     (Corr)     .00000     1.0000     .00000    
+Checking.NumberBusy                         .64306     (Insuf)    .00000     1.0000     .00000    
+Checking.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Checking.Utilization                        .64306     (Insuf)    .00000     1.0000     .00000    
+Nurse.NumberBusy                            .70448     (Insuf)    .00000     1.0000     1.0000    
+Nurse.NumberScheduled                       1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Nurse.Utilization                           .70448     (Insuf)    .00000     1.0000     1.0000    
+Attendance for Female.NumberBusy            .21754     (Insuf)    .00000     1.0000     .00000    
+Attendance for Female.NumberScheduled       1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Attendance for Female.Utilization           .21754     (Insuf)    .00000     1.0000     .00000    
+Volunteer to print Token.NumberBusy         .07326     (Insuf)    .00000     1.0000     .00000    
+Volunteer to print Token.NumberScheduled    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Volunteer to print Token.Utilization        .07326     (Insuf)    .00000     1.0000     .00000    
+Especial Service Point_11086.Queue.NumberI  .00164     (Insuf)    .00000     1.0000     .00000    
+Vaccination_11086.Queue.NumberInQueue       32.911     (Corr)     .00000     89.000     52.000    
+Attendance Female_11086.Queue.NumberInQueu  .00981     (Insuf)    .00000     1.0000     .00000    
+Attendance Male_11086.Queue.NumberInQueue   .00000     (Insuf)    .00000     .00000     .00000    
+Volunteer_11086.Queue.NumberInQueue         21.997     (Corr)     .00000     78.000     .00000    
+
+                                             COUNTERS
+
+Identifier                                    Count   Limit
+_____________________________________________________________
+
+Vaccinated People_11086                         407  Infinite
+Arrival Record                                  563  Infinite
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Volunteer_11086 Accum VA Time               15.433    
+Volunteer_11086 Number Out                  463.00    
+Especial Service Point_11086 Number Out     51.000    
+Volunteer_11086 Number In                   463.00    
+Vaccination_11086 Accum VA Time             16.873    
+Volunteer_11086 Accum Wait Time             527.93    
+Attendance Female_11086 Number Out          126.00    
+Especial Service Point_11086 Number In      51.000    
+Attendance Male_11086 Accum VA Time         6.9939    
+Especial Service Point_11086 Accum VA Time  1.7582    
+Attendance Male_11086 Number Out            337.00    
+Vaccination_11086 Number In                 460.00    
+Especial Service Point_11086 Accum Wait Ti  .03927    
+Attendance Male_11086 Number In             337.00    
+Attendance Male_11086 Accum Wait Time       .00000    
+Attendance Female_11086 Number In           126.00    
+Vaccination_11086 Number Out                407.00    
+Vaccination_11086 Accum Wait Time           663.29    
+Attendance Female_11086 Accum VA Time       5.2209    
+Attendance Female_11086 Accum Wait Time     .23543    
+People.NumberIn                             563.00    
+People.NumberOut                            510.00    
+Attendance for Male.NumberSeized            337.00    
+Attendance for Male.ScheduledUtilization    .29141    
+Checking.NumberSeized                       463.00    
+Checking.ScheduledUtilization               .64306    
+Nurse.NumberSeized                          408.00    
+Nurse.ScheduledUtilization                  .70448    
+Attendance for Female.NumberSeized          126.00    
+Attendance for Female.ScheduledUtilization  .21754    
+Volunteer to print Token.NumberSeized       51.000    
+Volunteer to print Token.ScheduledUtilizat  .07326    
+System.NumberOut                            510.00    
+
+
+Simulation run time: 0.03 minutes.
+Simulation run complete.
